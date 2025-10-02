@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henrique Rosa | Dev & Suporte TI</title>
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar">
+    <header class="sticky-top">
+        <nav id="navbar" class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#hero">
+                    <span class="brand-icon">HR</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-label="Abrir menu de navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link" href="#hero">Início</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Habilidades</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projetos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#education">Formação</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
+                    </ul>
+                    <div class="social-icons d-flex">
+                        <a href="https://github.com/HenriqueRDCruz" target="_blank" rel="noopener" class="social-icon"
+                            aria-label="GitHub">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/henrique-rosa-da-cruz-1a7030237/" target="_blank"
+                            rel="noopener" class="social-icon" aria-label="LinkedIn">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <a href="mailto:h903711@gmail.com" class="social-icon" aria-label="Email">
+                            <i class="bi bi-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-background">
+                <div class="gradient-orb orb-1"></div>
+                <div class="gradient-orb orb-2"></div>
+                <div class="gradient-orb orb-3"></div>
+            </div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 order-2 order-lg-1">
+                        <div class="hero-content fade-in-up">
+                            <div class="hero-badge mb-3">
+                                <i class="bi bi-code-slash me-2"></i>
+                                <span>Desenvolvedor & Suporte</span>
+                            </div>
+                            <h1 class="hero-title mb-4">
+                                Olá, sou <br>
+                                <span class="gradient-text">Henrique Rosa da Cruz</span>
+                            </h1>
+                            <p class="hero-description mb-4">
+                                Transformo ideias em soluções digitais. Focado em desenvolvimento de software e suporte
+                                técnico,
+                                busco constantemente aprender e contribuir com projetos inovadores.
+                            </p>
+                            <div class="hero-stats mb-4">
+                                <div class="stat-item">
+                                    <div class="stat-number">2+</div>
+                                    <div class="stat-label">Anos de Experiência</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-number">8+</div>
+                                    <div class="stat-label">Projetos Concluídos</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-number">25+</div>
+                                    <div class="stat-label">Tecnologias</div>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-wrap gap-3">
+                                <a href="assets/docs/Curriculo_Henrique_Rosa_da_Cruz.pdf"
+                                    class="btn btn-primary btn-lg">
+                                    <i class="bi bi-download me-2"></i> Download CV
+                                </a>
+                                <a href="#contact" class="btn btn-outline-primary btn-lg">
+                                    <i class="bi bi-chat-dots me-2"></i> Entre em Contato
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-1 order-lg-2 text-center mb-5 mb-lg-0">
+                        <div class="profile-container fade-in-up">
+                            <div class="profile-decoration"></div>
+                            <div class="profile-image">
+                                <img src="assets/img/Henrique.jpg" alt="Henrique Rosa da Cruz">
+                            </div>
+                            <div class="floating-card card-1">
+                                <i class="bi bi-code-square"></i>
+                                <span>Dev</span>
+                            </div>
+                            <div class="floating-card card-2">
+                                <i class="bi bi-laptop"></i>
+                                <span>Suporte</span>
+                            </div>
+                            <div class="floating-card card-3">
+                                <i class="bi bi-lightbulb"></i>
+                                <span>Inovação</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section-padding">
+            <div class="container">
+                <div class="section-header text-center mb-5 fade-in-up">
+                    <span class="section-badge">Competências</span>
+                    <h2 class="section-title">Minhas Habilidades</h2>
+                </div>
+
+                <div class="skills-grid fade-in-up">
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="bi bi-code-slash"></i>
+                            <h3>Desenvolvimento</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span class="skill-badge">HTML5</span>
+                            <span class="skill-badge">CSS3</span>
+                            <span class="skill-badge">NODE.js</span>
+                            <span class="skill-badge">JavaScript</span>
+                            <span class="skill-badge">TypeScript</span>
+                            <span class="skill-badge">PHP</span>
+                            <span class="skill-badge">Python</span>
+                            <span class="skill-badge">Java</span>
+                            <span class="skill-badge">React</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="bi bi-database"></i>
+                            <h3>Banco de Dados</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span class="skill-badge">MySQL</span>
+                            <span class="skill-badge">SQL</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="bi bi-palette"></i>
+                            <h3>Design & UI/UX</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span class="skill-badge">Figma</span>
+                            <span class="skill-badge">Bootstrap</span>
+                            <span class="skill-badge">Photoshop</span>
+                            <span class="skill-badge">Webcrumbs</span>
+                            <span class="skill-badge">Pencil</span>
+                            <span class="skill-badge">Miro</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="bi bi-server"></i>
+                            <h3>Infraestrutura & DevOps</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span class="skill-badge">Linux Server</span>
+                            <span class="skill-badge">Windows Server</span>
+                            <span class="skill-badge">VM</span>
+                            <span class="skill-badge">Git/GitHub</span>
+                            <span class="skill-badge">GLPI</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="bi bi-diagram-3"></i>
+                            <h3>Redes</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span class="skill-badge">Cisco Packet Tracer</span>
+                            <span class="skill-badge">VLSM</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="bi bi-kanban"></i>
+                            <h3>Gestão</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span class="skill-badge">Notion</span>
+                            <span class="skill-badge">Agile</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section-padding bg-light">
+            <div class="container">
+                <div class="section-header text-center mb-5 fade-in-up">
+                    <span class="section-badge">Portfólio</span>
+                    <h2 class="section-title">Projetos em Destaque</h2>
+                    <p class="section-description">Alguns dos meus trabalhos mais recentes e relevantes</p>
+                </div>
+
+                Featured Projects
+                <div class="row g-4 mb-5">
+                    <div class="col-lg-4 col-md-6 fade-in-up">
+                        <div class="project-card featured">
+                            <div class="project-image">
+                                <img src="assets/img/wolfstore.jpg" alt="Wolfstore Site">
+                                <div class="project-overlay">
+                                    <div class="project-links">
+                                        <a href="https://github.com/HenriqueRDCruz/Wolfstore-site/tree/main"
+                                            target="_blank" rel="noopener" class="project-link" aria-label="Ver código">
+                                            <i class="bi bi-github"></i>
+                                        </a>
+                                        <a href="https://wolfstore.com.br/Site2/" target="_blank" rel="noopener"
+                                            class="project-link" aria-label="Ver projeto">
+                                            <i class="bi bi-box-arrow-up-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <div class="project-header">
+                                    <h3 class="project-title">Wolfstore Site</h3>
+                                    <span class="featured-badge">Destaque</span>
+                                </div>
+                                <p class="project-description">
+                                    Site institucional moderno e responsivo desenvolvido para substituir o antigo
+                                    WordPress,
+                                    oferecendo melhor performance e experiência do usuário.
+                                </p>
+                                <div class="project-tags">
+                                    <span class="tag">HTML</span>
+                                    <span class="tag">CSS</span>
+                                    <span class="tag">PHP</span>
+                                    <span class="tag">JavaScript</span>
+                                    <span class="tag">Bootstrap</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 fade-in-up">
+                        <div class="project-card featured">
+                            <div class="project-image">
+                                <img src="assets/img/wolfstore.jpg" alt="Wolfstore Linktree">
+                                <div class="project-overlay">
+                                    <div class="project-links">
+                                        <a href="https://github.com/HenriqueRDCruz/link-wolfstore" target="_blank"
+                                            rel="noopener" class="project-link" aria-label="Ver código">
+                                            <i class="bi bi-github"></i>
+                                        </a>
+                                        <a href="https://www.wolfstore.com.br/link/" target="_blank" rel="noopener"
+                                            class="project-link" aria-label="Ver projeto">
+                                            <i class="bi bi-box-arrow-up-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <div class="project-header">
+                                    <h3 class="project-title">Wolfstore Linktree</h3>
+                                    <span class="featured-badge">Destaque</span>
+                                </div>
+                                <p class="project-description">
+                                    Hub centralizado de contatos e links importantes da empresa,
+                                    facilitando o acesso a todas as plataformas de comunicação.
+                                </p>
+                                <div class="project-tags">
+                                    <span class="tag">HTML</span>
+                                    <span class="tag">CSS</span>
+                                    <span class="tag">Bootstrap</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 fade-in-up">
+                        <div class="project-card featured">
+                            <div class="project-image">
+                                <img src="assets/img/wolfstore.jpg" alt="Dashboard Financeiro">
+                                <div class="project-overlay">
+                                    <div class="project-links">
+                                        <a href="https://github.com/HenriqueRDCruz/Wolfstore-Dashboard" target="_blank"
+                                            rel="noopener" class="project-link" aria-label="Ver código">
+                                            <i class="bi bi-github"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <div class="project-header">
+                                    <h3 class="project-title">Dashboard Financeiro</h3>
+                                    <span class="featured-badge">Destaque</span>
+                                </div>
+                                <p class="project-description">
+                                    Dashboard interativo para visualização de indicadores financeiros e
+                                    resultados de faturamento em tempo real.
+                                </p>
+                                <div class="project-tags">
+                                    <span class="tag">Python</span>
+                                    <span class="tag">VM</span>
+                                    <span class="tag">Linux Server</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                All Projects
+                <div class="text-center mb-4 fade-in-up">
+                    <h3 class="h4 mb-4">Outros Projetos</h3>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6 fade-in-up">
+                        <div class="project-card compact">
+                            <div class="project-icon">
+                                <i class="bi bi-link-45deg"></i>
+                            </div>
+                            <h4 class="project-title">Linktree Interno</h4>
+                            <p class="project-description">Hub de ferramentas internas da Wolfstore</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JS</span>
+                            </div>
+                            <div class="project-footer">
+                                <a href="https://github.com/HenriqueRDCruz/Wolfstore-Linktree---Ferramentas"
+                                    target="_blank" rel="noopener" class="btn-link" title="Ver código no GitHub">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://wolfstore-linktree-ferramentas.vercel.app/" target="_blank"
+                                    rel="noopener" class="btn-link" title="Ver projeto">
+                                    <i class="bi bi-box-arrow-up-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 fade-in-up">
+                        <div class="project-card compact">
+                            <div class="project-icon">
+                                <i class="bi bi-stoplights"></i>
+                            </div>
+                            <h4 class="project-title">Simulador de Semáforo</h4>
+                            <p class="project-description">Sistema de controle de semáforos com pedestres</p>
+                            <div class="project-tags">
+                                <span class="tag">Java</span>
+                            </div>
+                            <div class="project-footer">
+                                <a href="https://github.com/HenriqueRDCruz/Semaforo" target="_blank" rel="noopener"
+                                    class="btn-link" title="Ver código no GitHub">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 fade-in-up">
+                        <div class="project-card compact">
+                            <div class="project-icon">
+                                <i class="bi bi-bank"></i>
+                            </div>
+                            <h4 class="project-title">Conta Corrente</h4>
+                            <p class="project-description">Sistema bancário com Pix e gestão de favoritos</p>
+                            <div class="project-tags">
+                                <span class="tag">Java</span>
+                            </div>
+                            <div class="project-footer">
+                                <a href="https://github.com/HenriqueRDCruz/Contacorrente" target="_blank" rel="noopener"
+                                    class="btn-link" title="Ver código no GitHub">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 fade-in-up">
+                        <div class="project-card compact">
+                            <div class="project-icon">
+                                <i class="bi bi-controller"></i>
+                            </div>
+                            <h4 class="project-title">Geometric Ninja</h4>
+                            <p class="project-description">Jogo interativo inspirado em Fruit Ninja</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JS</span>
+                            </div>
+                            <div class="project-footer">
+                                <a href="https://github.com/HenriqueRDCruz/fruit-ninja-da-shopee" target="_blank"
+                                    rel="noopener" class="btn-link" title="Ver código no GitHub">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://fruit-ninja-da-shopee-git-main-henriquerdcruzs-projects.vercel.app/"
+                                    target="_blank" rel="noopener" class="btn-link" title="Ver projeto Fruit Ninja">
+                                    <i class="bi bi-box-arrow-up-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 fade-in-up">
+                        <div class="project-card compact">
+                            <div class="project-icon">
+                                <i class="bi-clipboard-check"></i>
+                            </div>
+                            <h4 class="project-title">Pedido Feira</h4>
+                            <p class="project-description">Aplicação mobile desenvolvida para otimizar o processo de
+                                pedidos na feira da Wolfstore</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JS</span>
+                            </div>
+                            <div class="project-footer">
+                                <a href="https://github.com/HenriqueRDCruz/Pedido_Feira" target="_blank" rel="noopener"
+                                    class="btn-link" title="Ver código no GitHub">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://pedido-feira-xeap.vercel.app/" target="_blank" rel="noopener"
+                                    class="btn-link" title="Ver projeto Pedido Feira">
+                                    <i class="bi bi-box-arrow-up-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section-padding">
+            <div class="container">
+                <div class="section-header text-center mb-5 fade-in-up">
+                    <span class="section-badge">Trajetória</span>
+                    <h2 class="section-title">Formação & Experiência</h2>
+                    <p class="section-description">Minha jornada acadêmica e profissional</p>
+                </div>
+
+                <div class="row g-5">
+                    <div class="col-lg-6 fade-in-up">
+                        <div class="timeline-header">
+                            <i class="bi bi-mortarboard-fill"></i>
+                            <h3>Formação Acadêmica</h3>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <span class="timeline-date">Jan 2024 – Presente</span>
+                                    <h4>Análise e Desenvolvimento de Sistemas</h4>
+                                    <p class="institution">Instituição Evangélica de Novo Hamburgo (IENH)</p>
+                                    <p class="description">
+                                        Formação focada em desenvolvimento, análise, projeto e implementação de sistemas
+                                        de informação.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <span class="timeline-date">Ago 2021 – Nov 2023</span>
+                                    <h4>Técnico em Informática</h4>
+                                    <p class="institution">Instituição Evangélica de Novo Hamburgo (IENH)</p>
+                                    <p class="description">
+                                        Onde desenvolvi minha paixão por programação e tecnologia.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 fade-in-up">
+                        <div class="timeline-header">
+                            <i class="bi bi-briefcase-fill"></i>
+                            <h3>Experiência Profissional</h3>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <span class="timeline-date">Out 2023 – Set 2025</span>
+                                    <h4>Operador de Sistemas (Aprendiz)</h4>
+                                    <p class="institution">Wolfstore Indústria Textil Ltda</p>
+                                    <ul class="achievements">
+                                        <li>Operação de sistemas, aplicações e servidores</li>
+                                        <li>Manutenção de infraestrutura tecnológica</li>
+                                        <li>Desenvolvimento de projetos web corporativos</li>
+                                        <li>Suporte técnico e resolução de problemas</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <span class="timeline-date">Set 2022 – Set 2023</span>
+                                    <h4>Estagiário de TI</h4>
+                                    <p class="institution">Wolfstore Indústria Textil Ltda</p>
+                                    <ul class="achievements">
+                                        <li>Automação de processos de TI</li>
+                                        <li>Manutenção de computadores e equipamentos</li>
+                                        <li>Suporte técnico e gestão de ERP</li>
+                                        <li>Administração de servidores</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section-padding bg-light">
+            <div class="container">
+                <div class="section-header text-center mb-5 fade-in-up">
+                    <span class="section-badge">Contato</span>
+                    <h2 class="section-title">Vamos Conversar?</h2>
+                    <p class="section-description">Estou sempre aberto a novos projetos e oportunidades</p>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 fade-in-up">
+                        <div class="contact-grid">
+                            <a href="mailto:h903711@gmail.com" class="contact-card">
+                                <div class="contact-icon">
+                                    <i class="bi bi-envelope-fill"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <h4>Email</h4>
+                                    <p>h903711@gmail.com</p>
+                                </div>
+                                <i class="bi bi-arrow-right contact-arrow"></i>
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/henrique-rosa-da-cruz-1a7030237/" target="_blank"
+                                rel="noopener" class="contact-card">
+                                <div class="contact-icon">
+                                    <i class="bi bi-linkedin"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <h4>LinkedIn</h4>
+                                    <p>Henrique Rosa da Cruz</p>
+                                </div>
+                                <i class="bi bi-arrow-right contact-arrow"></i>
+                            </a>
+
+                            <a href="https://github.com/HenriqueRDCruz" target="_blank" rel="noopener"
+                                class="contact-card">
+                                <div class="contact-icon">
+                                    <i class="bi bi-github"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <h4>GitHub</h4>
+                                    <p>@HenriqueRDCruz</p>
+                                </div>
+                                <i class="bi bi-arrow-right contact-arrow"></i>
+                            </a>
+
+                            <a href="https://wa.me/5551980601183" target="_blank" rel="noopener" class="contact-card">
+                                <div class="contact-icon">
+                                    <i class="bi bi-whatsapp"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <h4>WhatsApp</h4>
+                                    <p>+55 51 98060-1183</p>
+                                </div>
+                                <i class="bi bi-arrow-right contact-arrow"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Henrique Rosa da Cruz</h3>
+                    <p>Desenvolvedor & Suporte TI</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/HenriqueRDCruz" target="_blank" rel="noopener" aria-label="GitHub">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/henrique-rosa-da-cruz-1a7030237/" target="_blank"
+                        rel="noopener" aria-label="LinkedIn">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="mailto:h903711@gmail.com" aria-label="Email">
+                        <i class="bi bi-envelope-fill"></i>
+                    </a>
+                    <a href="https://wa.me/5551980601183" target="_blank" rel="noopener" aria-label="WhatsApp">
+                        <i class="bi bi-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span>Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
